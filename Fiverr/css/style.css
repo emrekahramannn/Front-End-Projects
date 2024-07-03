@@ -1,0 +1,32 @@
+#join:hover,
+.btn.btn-danger.rounded-pill:hover {
+  transition: all ease-in-out 0.6s;
+  background: #fbfbfb;
+  color: #dc4c64 !important;
+}
+
+#join:hover a {
+  color: #dc4c64 !important;
+  transition: all ease-in-out 0.6s;
+}
+
+.op-04 {
+  opacity: 0.4;
+}
+#market-icons > :first-child > i {
+  border-bottom: 2px solid #fff;
+  font-size: 2rem;
+  padding-bottom: 0.8rem;
+}
+#market-icons > :first-child > i:after {
+  content: "";
+  display: block;
+  width: 65px;
+  height: 3px;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+#market-icons:hover > li:first-child > i:after {
+  background-color: #14a44d;
+  transition: all 0.6s ease-in-out;
+}

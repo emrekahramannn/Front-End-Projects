@@ -1,0 +1,36 @@
+html {
+  font-family: "Times New Roman", Times, serif !important;
+}
+
+.fa-arrow-trend-up {
+  font-weight: normal;
+  display: block;
+  text-align: center;
+  width: 18px;
+  height: 18px;
+  border: 2px solid rgba(0, 0, 0, 0.15);
+  border-radius: 50%;
+}
+
+.op-02 {
+  opacity: 0.2;
+}
+.op-04 {
+  opacity: 0.4;
+}
+.op-07 {
+  opacity: 0.7;
+}
+.op-1 {
+  opacity: 1;
+}
+.fs-12 {
+  font-size: 12px;
+}
+.fs-14 {
+  font-size: 14px;
+}
+
+.fa-regular.fa-bookmark:hover {
+  color: #000 !important;
+}

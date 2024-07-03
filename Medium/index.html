@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="This web site is a clone of Medium designed by bootstrap"
+    />
+    <meta name="keywords" content="medium,blog,page,bootstrap,html,css,clone" />
+    <meta name="author" content="Emre Kahraman" />
+    <title>Medium Clone</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav
+      class="navbar navbar-expand-md bg-warning border-bottom border-dark sticky-top"
+    >
+      <div class="container py-1">
+        <a href="./index.html" class="navbar-brand fw-bold">
+          <i class="fa-brands fa-medium"></i>
+          Medium
+        </a>
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#mobile"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="mobile" class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Our Story</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Membership</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Write</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Sign In</a>
+            </li>
+            <li class="nav-item ms-md-3">
+              <a href="#" class="btn btn-dark rounded-pill">Get Started</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navigation end -->
+
+    <!-- Header (banner) -->
+    <section class="bg-warning border-bottom border-dark">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-12 col-md-6 d-flex align-items-center">
+            <div>
+              <h2 class="display-1">Stay Curious.</h2>
+              <p class="lead">
+                Discover stories, thinking and expertise from writers on any
+                topic.
+              </p>
+              <a href="#" class="btn btn-dark rounded-pill px-3 py-2"
+                >Start reading</a
+              >
+            </div>
+          </div>
+          <div class="d-none d-md-block col-md-6">
+            <img
+              src="http://picsum.photos/1000/600?grayscale"
+              alt=""
+              class="w-100"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Header (banner) end -->
+
+    <!-- Trends -->
+    <section class="py-2 border-bottom border-secondary">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 mt-5">
+            <h6 class="text-secondary fs-12">
+              <i
+                class="fa-solid fa-arrow-trend-up bg-dark text-light fs-12"
+              ></i>
+              TRENDING ON MEDIUM
+            </h6>
+          </div>
+        </div>
+        <div class="row mt-2">
+          <!-- article 1 -->
+          <article class="col-sm-4">
+            <div class="row">
+              <div class="col-2 text-muted fs-2 op-02">01</div>
+              <div class="col-10 mt-3">
+                <div>
+                  <a href="#" class="text-decoration-none text-dark">
+                    <img
+                      src="http://picsum.photos/30/30?grayscale"
+                      alt=""
+                      class="rounded-circle"
+                    />
+                    <small class="ms-2">Tom Cooper</small>
+                  </a>
+                </div>
+                <div>
+                  <h2 class="h6 mt-2">
+                    <a href="#" class="text-decoration-none text-dark"
+                      >Lorem ipsum dolor sit.</a
+                    >
+                  </h2>
+                  <ul class="list-inline fs-12 op-04">
+                    <li class="list-inline-item">Sep 28</li>
+                    <li class="list-inline-item">2 min read</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </article>
+          <!-- article 1 -->
+          <!-- article 2 -->
+          <article class="col-sm-4">
+            <div class="row">
+              <div class="col-2 text-muted fs-2 op-02">02</div>
+              <div class="col-10 mt-3">
+                <div>
+                  <a href="#" class="text-decoration-none text-dark">
+                    <img
+                      src="http://picsum.photos/30/30?grayscale"
+                      alt=""
+                      class="rounded-circle"
+                    />
+                    <small class="ms-2">Bradley Cooper</small>
+                  </a>
+                </div>
+                <div>
+                  <h2 class="h6 mt-2">
+                    <a href="#" class="text-decoration-none text-dark"
+                      >Lorem ipsum dolor sit.</a
+                    >
+                  </h2>
+                  <ul class="list-inline fs-12 op-04">
+                    <li class="list-inline-item">Sep 28</li>
+                    <li class="list-inline-item">2 min read</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </article>
+          <!-- article 2 -->
+          <!-- article 3 -->
+          <article class="col-sm-4">
+            <div class="row">
+              <div class="col-2 text-muted fs-2 op-02">03</div>
+              <div class="col-10 mt-3">
+                <div>
+                  <a href="#" class="text-decoration-none text-dark">
+                    <img
+                      src="http://picsum.photos/30/30?grayscale"
+                      alt=""
+                      class="rounded-circle"
+                    />
+                    <small class="ms-2">Martin Cooper</small>
+                  </a>
+                </div>
+                <div>
+                  <h2 class="h6 mt-2">
+                    <a href="#" class="text-decoration-none text-dark"
+                      >Lorem ipsum dolor sit.</a
+                    >
+                  </h2>
+                  <ul class="list-inline fs-12 op-04">
+                    <li class="list-inline-item">Sep 28</li>
+                    <li class="list-inline-item">2 min read</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </article>
+          <!-- article 3 -->
+        </div>
+        <div class="row mt-2">
+          <!-- article 4 -->
+          <article class="col-sm-4">
+            <div class="row">
+              <div class="col-2 text-muted fs-2 op-02">04</div>
+              <div class="col-10 mt-3">
+                <div>
+                  <a href="#" class="text-decoration-none text-dark">
+                    <img
+                      src="http://picsum.photos/30/30?grayscale"
+                      alt=""
+                      class="rounded-circle"
+                    />
+                    <small class="ms-2">Shelly Cooper</small>
+                  </a>
+                </div>
+                <div>
+                  <h2 class="h6 mt-2">
+                    <a href="#" class="text-decoration-none text-dark"
+                      >Lorem ipsum dolor sit.</a
+                    >
+                  </h2>
+                  <ul class="list-inline fs-12 op-04">
+                    <li class="list-inline-item">Sep 28</li>
+                    <li class="list-inline-item">2 min read</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </article>
+          <!-- article 4 -->
+          <!-- article 5 -->
+          <article class="col-sm-4">
+            <div class="row">
+              <div class="col-2 text-muted fs-2 op-02">05</div>
+              <div class="col-10 mt-3">
+                <div>
+                  <a href="#" class="text-decoration-none text-dark">
+                    <img
+                      src="http://picsum.photos/30/30?grayscale"
+                      alt=""
+                      class="rounded-circle"
+                    />
+                    <small class="ms-2">Max Cooper</small>
+                  </a>
+                </div>
+                <div>
+                  <h2 class="h6 mt-2">
+                    <a href="#" class="text-decoration-none text-dark"
+                      >Lorem ipsum dolor sit.</a
+                    >
+                  </h2>
+                  <ul class="list-inline fs-12 op-04">
+                    <li class="list-inline-item">Sep 28</li>
+                    <li class="list-inline-item">2 min read</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </article>
+          <!-- article 5 -->
+          <!-- article 6 -->
+          <article class="col-sm-4">
+            <div class="row">
+              <div class="col-2 text-muted fs-2 op-02">06</div>
+              <div class="col-10 mt-3">
+                <div>
+                  <a href="#" class="text-decoration-none text-dark">
+                    <img
+                      src="http://picsum.photos/30/30?grayscale"
+                      alt=""
+                      class="rounded-circle"
+                    />
+                    <small class="ms-2">Chuck Cooper</small>
+                  </a>
+                </div>
+                <div>
+                  <h2 class="h6 mt-2">
+                    <a href="#" class="text-decoration-none text-dark"
+                      >Lorem ipsum dolor sit.</a
+                    >
+                  </h2>
+                  <ul class="list-inline fs-12 op-04">
+                    <li class="list-inline-item">Sep 28</li>
+                    <li class="list-inline-item">2 min read</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </article>
+          <!-- article 6 -->
+        </div>
+      </div>
+    </section>
+    <!-- Trends end -->
+
+    <!-- Contents -->
+    <section class="py-5 border-bottom border-dark">
+      <div class="container">
+        <div class="row">
+          <!-- MAIN -->
+          <main class="col-sm-7 order-1 order-sm-0">
+            <!-- Article 1 -->
+            <article class="row mb-3 mb-md-5">
+              <div class="col-12 col-md-8">
+                <div>
+                  <a href="#" class="text-decoration-none text-dark">
+                    <img
+                      src="http://picsum.photos/30/30?grayscale"
+                      alt=""
+                      class="rounded-circle"
+                    />
+                    <small class="ms-2">Tom Cooper</small>
+                  </a>
+                </div>
+                <div>
+                  <h5 class="mt-2">
+                    Weird 19th-Century Punctuation Marks You Should Try Using
+                  </h5>
+                  <p class="text-muted fs-14">
+                    Ever heard of the "colash"? or the "commash"?
+                  </p>
+                  <ul class="list-inline fs-12">
+                    <li class="list-inline-item op-04 mb-1 mb-md-0">Sep 30</li>
+                    <li class="list-inline-item op-04 mb-1 mb-md-0">
+                      6 min read
+                    </li>
+                    <li
+                      class="list-inline-item op-07 mb-1 mb-md-0 border border-muted p-1 rounded-pill text-muted"
+                    >
+                      Punctuation
+                    </li>
+                    <li class="list-inline-item mb-1 mb-md-0">
+                      <i class="fa-solid fa-star-of-life text-warning op-1"></i>
+                    </li>
+                    <li
+                      class="list-inline-item me-auto d-none d-md-block float-end"
+                    >
+                      <i class="fa-regular fa-bookmark text-muted fs-14"></i>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="d-none d-md-block col-md-4">
+                <img
+                  src="http://picsum.photos/400/300?grayscale"
+                  alt=""
+                  class="w-100"
+                />
+              </div>
+            </article>
+            <!-- Article 2 -->
+            <article class="row mb-3 mb-md-5">
+              <div class="col-12 col-md-8">
+                <div>
+                  <a href="#" class="text-decoration-none text-dark">
+                    <img
+                      src="http://picsum.photos/30/30?grayscale"
+                      alt=""
+                      class="rounded-circle"
+                    />
+                    <small class="ms-2">Tom Cooper</small>
+                  </a>
+                </div>
+                <div>
+                  <h5 class="mt-2">
+                    Weird 19th-Century Punctuation Marks You Should Try Using
+                  </h5>
+                  <p class="text-muted fs-14">
+                    Ever heard of the "colash"? or the "commash"?
+                  </p>
+                  <ul class="list-inline fs-12">
+                    <li class="list-inline-item op-04 mb-1 mb-md-0">Sep 30</li>
+                    <li class="list-inline-item op-04 mb-1 mb-md-0">
+                      6 min read
+                    </li>
+                    <li
+                      class="list-inline-item op-07 mb-1 mb-md-0 border border-muted p-1 rounded-pill text-muted"
+                    >
+                      Punctuation
+                    </li>
+                    <li class="list-inline-item mb-1 mb-md-0">
+                      <i class="fa-solid fa-star-of-life text-warning op-1"></i>
+                    </li>
+                    <li
+                      class="list-inline-item me-auto d-none d-md-block float-end"
+                    >
+                      <i class="fa-regular fa-bookmark text-muted fs-14"></i>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="d-none d-md-block col-md-4">
+                <img
+                  src="http://picsum.photos/400/300?grayscale"
+                  alt=""
+                  class="w-100"
+                />
+              </div>
+            </article>
+            <!-- Article 3 -->
+            <article class="row mb-3 mb-md-5">
+              <div class="col-12 col-md-8">
+                <div>
+                  <a href="#" class="text-decoration-none text-dark">
+                    <img
+                      src="http://picsum.photos/30/30?grayscale"
+                      alt=""
+                      class="rounded-circle"
+                    />
+                    <small class="ms-2">Tom Cooper</small>
+                  </a>
+                </div>
+                <div>
+                  <h5 class="mt-2">
+                    Weird 19th-Century Punctuation Marks You Should Try Using
+                  </h5>
+                  <p class="text-muted fs-14">
+                    Ever heard of the "colash"? or the "commash"?
+                  </p>
+                  <ul class="list-inline fs-12">
+                    <li class="list-inline-item op-04 mb-1 mb-md-0">Sep 30</li>
+                    <li class="list-inline-item op-04 mb-1 mb-md-0">
+                      6 min read
+                    </li>
+                    <li
+                      class="list-inline-item op-07 mb-1 mb-md-0 border border-muted p-1 rounded-pill text-muted"
+                    >
+                      Punctuation
+                    </li>
+                    <li class="list-inline-item mb-1 mb-md-0">
+                      <i class="fa-solid fa-star-of-life text-warning op-1"></i>
+                    </li>
+                    <li
+                      class="list-inline-item me-auto d-none d-md-block float-end"
+                    >
+                      <i class="fa-regular fa-bookmark text-muted fs-14"></i>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="d-none d-md-block col-md-4">
+                <img
+                  src="http://picsum.photos/400/300?grayscale"
+                  alt=""
+                  class="w-100"
+                />
+              </div>
+            </article>
+            <!-- Article 4 -->
+            <article class="row">
+              <div class="col-12 col-md-8">
+                <div>
+                  <a href="#" class="text-decoration-none text-dark">
+                    <img
+                      src="http://picsum.photos/30/30?grayscale"
+                      alt=""
+                      class="rounded-circle"
+                    />
+                    <small class="ms-2">Tom Cooper</small>
+                  </a>
+                </div>
+                <div>
+                  <h5 class="mt-2">
+                    Weird 19th-Century Punctuation Marks You Should Try Using
+                  </h5>
+                  <p class="text-muted fs-14">
+                    Ever heard of the "colash"? or the "commash"?
+                  </p>
+                  <ul class="list-inline fs-12">
+                    <li class="list-inline-item op-04 mb-1 mb-md-0">Sep 30</li>
+                    <li class="list-inline-item op-04 mb-1 mb-md-0">
+                      6 min read
+                    </li>
+                    <li
+                      class="list-inline-item op-07 mb-1 mb-md-0 border border-muted p-1 rounded-pill text-muted"
+                    >
+                      Punctuation
+                    </li>
+                    <li class="list-inline-item mb-1 mb-md-0">
+                      <i class="fa-solid fa-star-of-life text-warning op-1"></i>
+                    </li>
+                    <li
+                      class="list-inline-item me-auto d-none d-md-block float-end"
+                    >
+                      <i class="fa-regular fa-bookmark text-muted fs-14"></i>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="d-none d-md-block col-md-4">
+                <img
+                  src="http://picsum.photos/400/300?grayscale"
+                  alt=""
+                  class="w-100"
+                />
+              </div>
+            </article>
+          </main>
+          <!-- MAIN END -->
+
+          <!-- ASIDE -->
+          <aside
+            class="col-sm-4 offset-sm-1 order-0 mb-5 mb-sm-0 order-sm-1 px-5 px-sm-0"
+          >
+            <h6 class="mb-3">DISCOVER MORE OF WHAT MATTERS TO YOU</h6>
+            <ul class="list-inline pb-3 border-bottom border-muted">
+              <li class="list-inline-item border p-2 fs-12 mb-1 rounded">
+                <a href="#" class="text-decoration-none text-muted">Self</a>
+              </li>
+              <li class="list-inline-item border p-2 fs-12 mb-1 rounded">
+                <a href="#" class="text-decoration-none text-muted"
+                  >Relationships</a
+                >
+              </li>
+              <li class="list-inline-item border p-2 fs-12 mb-1 rounded">
+                <a href="#" class="text-decoration-none text-muted">Data</a>
+                Science
+              </li>
+              <li class="list-inline-item border p-2 fs-12 mb-1 rounded">
+                <a href="#" class="text-decoration-none text-muted"
+                  >Programming</a
+                >
+              </li>
+              <li class="list-inline-item border p-2 fs-12 mb-1 rounded">
+                <a href="#" class="text-decoration-none text-muted"
+                  >Productivity</a
+                >
+              </li>
+              <li class="list-inline-item border p-2 fs-12 mb-1 rounded">
+                <a href="#" class="text-decoration-none text-muted"
+                  >Javascript</a
+                >
+              </li>
+              <li class="list-inline-item border p-2 fs-12 mb-1 rounded">
+                <a href="#" class="text-decoration-none text-muted">Machine</a>
+                Learning
+              </li>
+              <li class="list-inline-item border p-2 fs-12 mb-1 rounded">
+                <a href="#" class="text-decoration-none text-muted">Politics</a>
+              </li>
+              <li class="list-inline-item border p-2 fs-12 mb-1 rounded">
+                <a href="#" class="text-decoration-none text-muted">Health</a>
+              </li>
+            </ul>
+            <!-- List Footer -->
+            <ul class="list-inline mt-3">
+              <li class="list-inline-item fs-12 mb-2 me-2 me-md-4">
+                <a href="#" class="text-decoration-none text-muted">Help</a>
+              </li>
+              <li class="list-inline-item fs-12 mb-2 me-2 me-md-4">
+                <a href="#" class="text-decoration-none text-muted">Status</a>
+              </li>
+              <li class="list-inline-item fs-12 mb-2 me-2 me-md-4">
+                <a href="#" class="text-decoration-none text-muted">Writers</a>
+              </li>
+              <li class="list-inline-item fs-12 mb-2 me-2 me-md-4">
+                <a href="#" class="text-decoration-none text-muted">Blog</a>
+              </li>
+              <li class="list-inline-item fs-12 mb-2 me-2 me-md-4">
+                <a href="#" class="text-decoration-none text-muted">Careers</a>
+              </li>
+              <li class="list-inline-item fs-12 mb-2 me-2 me-md-4">
+                <a href="#" class="text-decoration-none text-muted">Privacy</a>
+              </li>
+              <li class="list-inline-item fs-12 mb-2 me-2 me-md-4">
+                <a href="#" class="text-decoration-none text-muted">Terms</a>
+              </li>
+              <li class="list-inline-item fs-12 mb-2 me-2 me-md-4">
+                <a href="#" class="text-decoration-none text-muted">About</a>
+              </li>
+              <li class="list-inline-item fs-12 mb-2 me-2 me-md-4">
+                <a href="#" class="text-decoration-none text-muted">Knowable</a>
+              </li>
+            </ul>
+          </aside>
+          <!-- ASIDE END -->
+        </div>
+      </div>
+    </section>
+    <!-- Contents end -->
+
+    <footer class="py-2 bg-dark text-center text-md-start">
+      <div class="container">
+        <div class="row">
+          <ul class="list-inline mt-2">
+            <li class="list-inline-item">
+              <a href="#" class="text-decoration-none text-dark text-white"
+                >About</a
+              >
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="text-decoration-none text-dark text-white"
+                >Help</a
+              >
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="text-decoration-none text-dark text-white"
+                >Terms</a
+              >
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="text-decoration-none text-dark text-white"
+                >Privacy</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
